@@ -13,18 +13,6 @@ AddRoundKey
 ### ✅ Testbench for functional verification
 ### ✅ Optimized for FPGA synthesis (Vivado)
 
-# 📁 Project Structure
+# 📁 The schematic of AES structure
+![image](https://github.com/user-attachments/assets/e319a2a7-d239-4e44-94ac-0ef88f8fb584)
 
-AES/
-
-├── src/
-│   ├── aes.v
-│   ├── key_generation.v
-│   ├── sub_bytes.v
-│   ├── shift_rows.v
-│   ├── mix_columns.v
-│   ├── last_round.v
-│   └── round.v
-├── tb/
-│   └── tb_aes.v
-├── README.md
