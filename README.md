@@ -16,3 +16,21 @@ AddRoundKey
 # 📁 The schematic of AES structure
 ![image](https://github.com/user-attachments/assets/e319a2a7-d239-4e44-94ac-0ef88f8fb584)
 
+# 🛠️ Steps
+Add round key
+Substitute bytes
+Shift rows
+Mix columns
+
+# 🧪 Testing
+### 🧾 Test Input
+Signal	Value      (Hex)
+Plain   Text	     3243f6a8885a308d313198a2e0370734
+AES Key (128-bit)	 2b7e151628aed2a6abf7158809cf4f3c
+
+### ✅ Expected Output
+Output	   Value          (Hex)
+Encrypted  Data (AES-128)	3925841d02dc09fbdc118597196a0b32 ✔️
+
+This matches the known AES-128 test vector result defined in the FIPS-197 standard.
+
