@@ -27,6 +27,7 @@ Mix columns
 ### Signal Value   
 ______________________________________________________________________________________
 PlainText:  3243f6a8885a308d313198a2e0370734
+
 AES Key:  2b7e151628aed2a6abf7158809cf4f3c
 
 ### ✅ Expected Output
@@ -34,5 +35,10 @@ AES Key:  2b7e151628aed2a6abf7158809cf4f3c
 ______________________________________________________________________________________
 Encrypted  Data:  3925841d02dc09fbdc118597196a0b32 ✔️
 
-This matches the known AES-128 test vector result defined in the FIPS-197 standard.
+✔️ __This matches the known AES-128 test vector result defined in the FIPS-197 standard__
+
+# 📈 Simulation
+The simulation waveform shows successful key expansion and encryption. The result becomes stable after reset and initial processing latency, confirming correct AES round operations.
+
+![image](https://github.com/user-attachments/assets/18abf818-b086-425e-a29e-644eb4b136dd)
 
