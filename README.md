@@ -5,11 +5,17 @@ A Verilog-based implementation of the Advanced Encryption Standard (AES) designe
 ### ✅ AES-128 encryption (ECB mode)
 ### ✅ Synthesizable Verilog RTL
 ### ✅ Structured modular design:
+
 Key Expansion
+
 SubBytes
+
 ShiftRows
+
 MixColumns
+
 AddRoundKey
+
 ### ✅ Testbench for functional verification
 ### ✅ Optimized for FPGA synthesis (Vivado)
 
