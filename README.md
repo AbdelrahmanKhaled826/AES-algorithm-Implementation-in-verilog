@@ -18,23 +18,13 @@ AddRoundKey
 AES/
 
 ├── src/
-
 │   ├── aes.v
-
 │   ├── key_generation.v
-
 │   ├── sub_bytes.v
-
 │   ├── shift_rows.v
-
 │   ├── mix_columns.v
-
 │   ├── last_round.v
-
 │   └── round.v
-
 ├── tb/
-
 │   └── tb_aes.v
-
 ├── README.md
